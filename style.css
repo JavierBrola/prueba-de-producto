@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+header{
+    display: flex;  
+    height: 5rem;
+    border-bottom: 1px solid gray;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+nav{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divnav{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.carritonav{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.usuario{
+    width: 3rem;
+    height: 3rem;
+}
+
+main{
+    display: flex;
+    gap: 7rem;
+    margin: 4rem;
+}
+
+.secimg{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 60%;
+}
+
+.div1imgs{
+    display: flex;
+    height: 70vh;
+    border: 1px solid red;
+}
+
+.div2imgs{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.prod{
+    width: 7rem;
+    border-radius: 1rem;
+}
+
+.opacidad{
+    opacity: 0.4;
+}
+
+.secdescrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 1.2rem;
+    color: hsl(26, 100%, 55%);
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.parrafo{
+    color: hsl(220, 14%, 75%);
+}
+
+.precio{
+    display: flex;
+    gap: 1.5rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h5{
+    background-color: hsl(25, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+}
+
+h6{
+    color: hsl(220, 14%, 75%);
+    font-size: 1.2rem;
+    text-decoration:line-through;
+}
+
+.divboton{
+    display: flex;
+    gap: 2rem   ;
+}
+
+.masmenos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 8rem;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 0.4rem;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    width: 20rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem ;
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    border-radius: 0.5rem;
+}
